@@ -1,0 +1,126 @@
+/* CSS */
+*{
+  display: flex;
+  flex-direction: column;
+  
+}
+.button {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:focus {
+  color: #171e29;
+}
+
+.button:hover {
+  border-color: #1de9b6;
+  color: #1de9b6;
+  fill: #1de9b6;
+}
+
+.button:active {
+  border-color: #1de9b6;
+  color: #1de9b6;
+  fill: #1de9b6;
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 170px;
+  }
+}
+
+/* input text box */
+
+.input-box{
+
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+  border: 2px solid #dee1e2;
+  color: rgb(14, 14, 16);
+  background: #dee1e2;
+  display: block;
+  height: 36px;
+  
+  
+}
+
+.input-box:hover {
+  border-color: #ccc;
+}
+.input-box:focus{
+  border-color: #1de9b6;
+  background: #fff;
+}
+
+.add{
+  
+   
+  outline: none;
+  cursor: pointer;
+  font-weight: 900;
+  border-radius: 3px;
+  border: 0;
+  color: #fff;
+  background: #000a47;
+  line-height: 1.15;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;    
+  
+
+}
+
+.add:hover{
+
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+}
+
+.add-icon{
+  vertical-align: middle
+}
+
+.charts{
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.piechart{
+  width: 25rem;
+}
+#bar-example{
+  max-width: 50%;
+}
